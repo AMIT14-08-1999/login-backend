@@ -8,8 +8,8 @@ router.get('/dashboard', (req, res) => {
     res.send("Hello baby How are you?");
 })
 
-router.post('/adduser', actions.addNew)
-router.post('/authenticate', actions.authenticate)
-router.delete('/delete/:name', actions.delete)
-router.get('/getinfo', actions.getinfo)
+// router.post('/adduser', actions.addNew)
+// router.post('/authenticate', actions.authenticate)
+// router.delete('/delete/:name', actions.delete)
+// router.get('/getinfo', actions.getinfo)
 module.exports = router;
